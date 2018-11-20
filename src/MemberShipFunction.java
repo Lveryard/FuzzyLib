@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class MemberShipFunction {
 
-    String name;
-    ArrayList<Point> points;
-    double LargestX, SmallestX;
+    private String name;
+    private ArrayList<Point> points;
+    private double LargestX, SmallestX;
 
     // Only For triangles and Trapezoids
 
@@ -84,6 +84,9 @@ public class MemberShipFunction {
         return index;
     }
 
+    public String getName() {
+        return name;
+    }
 
     @Override
     public String toString() {

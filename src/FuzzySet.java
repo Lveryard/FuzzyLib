@@ -24,4 +24,13 @@ public class FuzzySet {
     public String getName() {
         return name;
     }
+
+    public void getFiringStrength(double X){
+
+        for(MemberShipFunction m: memberShipFunctions){
+            m.getFiringStrength(X);
+            m.ge
+        }
+
+    }
 }

@@ -7,7 +7,6 @@ public class Point {
         Y = y;
     }
 
-
     @Override
     public String toString() {
         return "( " + X + "," + Y + " )";
