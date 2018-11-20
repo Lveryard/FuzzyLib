@@ -35,8 +35,11 @@ public class FuzzyLib {
         fs.AddMemberShipFunction(new MemberShipFunction(p,"High"));
         inputs.add(fs);
 
+        System.out.println(fs);
 
-        System.out.println(inputs.get(0).getFiringStrength(18));
+        System.out.println(inputs.get(0).getFiringStrength(46));
+
+        
 
     }
 

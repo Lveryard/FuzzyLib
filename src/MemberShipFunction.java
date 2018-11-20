@@ -10,7 +10,7 @@ public class MemberShipFunction {
 
     public MemberShipFunction(ArrayList<Point> points, String Name){
         this.name = Name;
-        this.points = points;
+        this.points = new ArrayList<>(points);
         setLargestSmallestX();
     }
 
@@ -92,7 +92,7 @@ public class MemberShipFunction {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("\nName: " + name);
-        sb.append("Points { \n");
+        sb.append("\nPoints { \n");
         for(Point p: points){
             sb.append(p + " ");
         }

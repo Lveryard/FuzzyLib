@@ -25,12 +25,21 @@ public class FuzzySet {
         return name;
     }
 
-    public void getFiringStrength(double X){
-
+    public ArrayList<ReturnedFireStrength> getFiringStrength(double X){
+        double firingStrength = 0.0;
+        ArrayList<ReturnedFireStrength> ans = new ArrayList<>();
         for(MemberShipFunction m: memberShipFunctions){
-            m.getFiringStrength(X);
-            m.ge
+           firingStrength = m.getFiringStrength(X);
+            if(firingStrength != 0.0) {
+                ans.add(new ReturnedFireStrength(m.getName(), firingStrength));
+            }
         }
+        return ans;
 
+    }
+
+    @Override
+    public String toString() {
+        return "MemberShipFunctions : " + memberShipFunctions;
     }
 }
