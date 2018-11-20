@@ -39,7 +39,6 @@ public class MemberShipFunction {
                smallestX = p.X;
            }
        }
-
        this.LargestX = largestX;
        this.SmallestX = smallestX;
     }
@@ -56,7 +55,6 @@ public class MemberShipFunction {
            ans = RisingFire(X,index);
         }
 
-
         return ans;
     }
 
@@ -71,15 +69,12 @@ public class MemberShipFunction {
         // (b-X)/(b-a) // a is index 0 , b is index 1
         double ans;
         ans = ( points.get(index[1]).X - x ) / ( points.get(index[1]).X - points.get(index[0]).X );
-
-
         return ans;
     }
 
     private int[] BetweenPoints(double x){
         // returns the index of the points that x is between
         int[] index = {0,0};
-
         for (int i = 0; i <  points.size()-1; i++){
             if(x > points.get(i).X && x < points.get(i+1).X){
                 index[0] = i;
@@ -87,7 +82,6 @@ public class MemberShipFunction {
             }
         }
         return index;
-
     }
 
 
@@ -95,11 +89,11 @@ public class MemberShipFunction {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("\nName: " + name);
-        sb.append("Points { ");
+        sb.append("Points { \n");
         for(Point p: points){
-            sb.append(p);
+            sb.append(p + " ");
         }
-        sb.append("}");
+        sb.append("\n}");
         return sb.toString();
     }
 }

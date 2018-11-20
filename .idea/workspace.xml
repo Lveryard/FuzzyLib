@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="72c7169d-5a33-492f-bf84-24baad9bc950" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/MemberShipFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberShipFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberShipFunctionGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberShipFunctionGraph.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,17 +26,43 @@
       <file leaf-file-name="MemberShipFunction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MemberShipFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="743">
+              <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberShipFunctionGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MemberShipFunctionGraph.java">
+      <file leaf-file-name="RuleBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RuleBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Rule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <folding>
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FuzzySet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FuzzySet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#364#365#0" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
@@ -69,6 +94,8 @@
         <option value="$PROJECT_DIR$/src/Point.java" />
         <option value="$PROJECT_DIR$/src/FuzzyLib.java" />
         <option value="$PROJECT_DIR$/src/MemberShipFunctionGraph.java" />
+        <option value="$PROJECT_DIR$/src/RuleBase.java" />
+        <option value="$PROJECT_DIR$/src/Rule.java" />
         <option value="$PROJECT_DIR$/src/MemberShipFunction.java" />
       </list>
     </option>
@@ -196,12 +223,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542709878493</updated>
       <workItem from="1542709881290" duration="435000" />
-      <workItem from="1542710349284" duration="4172000" />
+      <workItem from="1542710349284" duration="5445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4607000" />
+    <option name="totallyTimeSpent" value="5880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -300,10 +327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemberShipFunctionGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/FuzzySet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#364#365#0" expanded="true" />
             <element signature="e#407#408#0" expanded="true" />
@@ -315,10 +342,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RuleBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Rule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MemberShipFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="743">
+          <caret line="91" column="30" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
         </state>
       </provider>
     </entry>
