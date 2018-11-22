@@ -26,12 +26,12 @@ public class FuzzySet {
     }
 
     public ArrayList<ReturnedFireStrength> getFiringStrength(double X){
-        double firingStrength = 0.0;
+        double firingStrength;
         ArrayList<ReturnedFireStrength> ans = new ArrayList<>();
         for(MemberShipFunction m: memberShipFunctions){
            firingStrength = m.getFiringStrength(X);
             if(firingStrength != 0.0) {
-                ans.add(new ReturnedFireStrength(m.getName(), firingStrength));
+                ans.add(new ReturnedFireStrength(m.getName(), firingStrength, name));
             }
         }
         return ans;
