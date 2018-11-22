@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72c7169d-5a33-492f-bf84-24baad9bc950" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Defuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Defuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FuzzyLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FuzzyLib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FuzzySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FuzzySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MemberShipFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MemberShipFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReturnedFireStrength.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReturnedFireStrength.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RuleBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RuleBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FuzzyLib.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FuzzyLib.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FuzzyLib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="167" column="45" selection-start-line="167" selection-start-column="45" selection-end-line="167" selection-end-column="45" />
+            <state relative-caret-position="286">
+              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
             </state>
           </provider>
         </entry>
@@ -40,7 +36,7 @@
       <file leaf-file-name="FuzzySet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FuzzySet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="185">
               <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#322#323#0" expanded="true" />
@@ -97,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Defuzz.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Defuzz.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Defuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="473">
+              <caret line="52" column="98" selection-start-line="52" selection-start-column="98" selection-end-line="52" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -138,10 +134,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>print</find>
       <find>High</find>
       <find>Medium</find>
       <find>Low</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,13 +149,13 @@
         <option value="$PROJECT_DIR$/src/MemberShipFunctionGraph.java" />
         <option value="$PROJECT_DIR$/src/Point.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/FuzzyLib.java" />
         <option value="$PROJECT_DIR$/src/ReturnedFireStrength.java" />
         <option value="$PROJECT_DIR$/src/Rule.java" />
         <option value="$PROJECT_DIR$/src/RuleBase.java" />
         <option value="$PROJECT_DIR$/src/MemberShipFunction.java" />
         <option value="$PROJECT_DIR$/src/FuzzySet.java" />
         <option value="$PROJECT_DIR$/src/Defuzz.java" />
+        <option value="$PROJECT_DIR$/src/FuzzyLib.java" />
       </list>
     </option>
   </component>
@@ -296,16 +292,15 @@
       <option name="presentableId" value="Default" />
       <updated>1542709878493</updated>
       <workItem from="1542709881290" duration="435000" />
-      <workItem from="1542710349284" duration="21834000" />
+      <workItem from="1542710349284" duration="24794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22269000" />
+    <option name="totallyTimeSpent" value="25229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -324,7 +319,7 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.41282564" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.4769539" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17083333" />
@@ -388,20 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FuzzyLib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="167" column="45" selection-start-line="167" selection-start-column="45" selection-end-line="167" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReturnedFireStrength.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -462,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FuzzySet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="185">
           <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#322#323#0" expanded="true" />
@@ -475,8 +456,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Defuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="473">
+          <caret line="52" column="98" selection-start-line="52" selection-start-column="98" selection-end-line="52" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FuzzyLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
         </state>
       </provider>
     </entry>

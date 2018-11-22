@@ -38,7 +38,6 @@ public class FuzzyLib {
         fs.AddMemberShipFunction(new MemberShipFunction(p,"High"));
         inputs.add(fs);
 
-        System.out.println(fs);
         fs = new FuzzySet("X2");
         p.clear();
         p.add(new Point(0.0,0.0));
@@ -84,7 +83,7 @@ public class FuzzyLib {
         output.add(fs);
 
 
-        System.out.println(inputs);
+//        System.out.println(inputs);
         // _______________________ RULES _______________________
         ArrayList<Rule> rules = new ArrayList<>();
         ArrayList<String> inputRules = new ArrayList<>();
@@ -159,14 +158,15 @@ public class FuzzyLib {
 
         RFS.add(inputs.get(0).getFiringStrength(X1));
         RFS.add(inputs.get(1).getFiringStrength(X2));
-        System.out.println(RFS);
+//        System.out.println(RFS);
 
         ArrayList<Rule> Fired =  new ArrayList<>();
         Fired.addAll(ruleBase.WhichRuleAnd(RFS));
 
         Defuzz d = new Defuzz();
-        d.Centriod(Fired,RFS,inputs, output);
+        double ans = d.Centriod(Fired,RFS,inputs, output);
 
+        System.out.println(ans);
 
     }
 
