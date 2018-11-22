@@ -88,6 +88,12 @@ public class MemberShipFunction {
         return name;
     }
 
+    public double getCOM() {
+        return (LargestX + SmallestX) / 2;
+    }
+
+
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

@@ -16,6 +16,14 @@ public class FuzzySet {
         memberShipFunctions.add(ms);
     }
 
+    public double getCOMfor(String name){
+        for(MemberShipFunction m : memberShipFunctions){
+            if(m.getName().equals(name)){
+                return m.getCOM();
+            }
+        }
+        return 0.0;
+    }
 
     public ArrayList<MemberShipFunction> getMemberShipFunctions() {
         return memberShipFunctions;
@@ -37,6 +45,8 @@ public class FuzzySet {
         return ans;
 
     }
+
+
 
     @Override
     public String toString() {

@@ -32,34 +32,18 @@ public class Rule {
         return false;
     }
 
-    private boolean orRule(ArrayList<String> in){
-        for(int j =0; j < inputs.size(); j++){
-            if(in.equals(inputs.get(j))){
-                return true;
-            }
-        }
-
-        return false;
-    }
-
-    private boolean andRule(ArrayList<String> in){
-        System.out.println("input "+in);
-
-        for(int j = 0; j < inputs.size(); j++){
-            System.out.println(inputs.get(j));
-
-            if(!in.equals(inputs.get(j))){
-                return false;
-            }
-        }
-        return true;
-    }
 
     public boolean partOf(String name, int rule){
         return inputs.get(rule).equals(name);
     }
 
+    public ArrayList<String> getInputs() {
+        return inputs;
+    }
 
+    public ArrayList<String> getOutput() {
+        return output;
+    }
 
     public void setOperator(int operator) {
         this.operator = operator;

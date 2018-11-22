@@ -22,14 +22,9 @@ public class RuleBase {
             int whichFire = 0;
             while(whichFire < rfs.get(counter).size()){
                 for(Rule r: rules){
-                    System.out.println(r + " = "+ rfs.get(counter).get(whichFire).getName() + " @ pos " +counter);
                     if(r.getFired() && r.partOf(rfs.get(counter).get(whichFire).getName(), counter)){
-                        System.out.println(true);
                         couldFire.add(r);
-                    }else{
-                        System.out.println(true);
                     }
-                    System.out.println();
                 }
 
                 whichFire++;
@@ -47,8 +42,6 @@ public class RuleBase {
                 firedRules.add(r);
             }
         }
-        System.out.println(firedRules);
-
         return firedRules;
     }
 
